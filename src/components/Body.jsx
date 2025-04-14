@@ -9,7 +9,7 @@ function Body() {
       justifyContent: "center",
       height: "80vh",
       background: "linear-gradient(to right, #f0f0f0, #cccccc)",
-      gap: "40px",
+      gap: "80px",
       flexWrap: "wrap",
     },
     imageStyle: {
@@ -37,13 +37,21 @@ function Body() {
         style={styles.imageStyle}
       />
       <motion.div
-        initial={{ x: 200, opacity: 0 }}
+        initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
-        style={styles.contentStyle}
       >
-        Tư tưởng Hồ Chí Minh là nền tảng tư tưởng và kim chỉ nam cho hành động
-        của Đảng Cộng sản Việt Nam.
+        <div style={{ ...styles.contentStyle, marginBottom: "40px", fontWeight: "bold" }}>
+          Tư tưởng Hồ Chí Minh là nền tảng tư tưởng và kim chỉ nam cho hành động
+          của Đảng Cộng sản Việt Nam.
+        </div>
+        <div style={styles.contentStyle}>
+        Trong tác phẩm Đường cách mệnh (năm 1927), Hồ Chí Minh khẳng định: 
+        Cách mạng trước hết phải có “đảng cách mệnh, để trong thì vận động
+        và tổ chức dân chúng, ngoài thì liên lạc với dân tộc bị áp bức và 
+        vô sản giai cấp ở mọi nơi. Đảng có vững, cách mệnh mới thành công, 
+        cũng như người cầm lái có vững thuyền mới chạy”.
+        </div>
       </motion.div>
     </div>
   );
