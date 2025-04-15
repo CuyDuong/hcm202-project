@@ -77,9 +77,7 @@ function Features() {
       viewport={{ once: true, amount: 0.3 }}
       style={styles.cardContainer}
     >
-      <h2 style={styles.cardTitle}>
-        Đặc điểm nổi bật của đảng kiểu mới:
-      </h2>
+      <h2 style={styles.cardTitle}>Đặc điểm nổi bật của đảng kiểu mới:</h2>
 
       <ul style={{ listStyle: "none", paddingLeft: "0" }}>
         {features.map((item, index) => (
