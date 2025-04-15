@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-// import Welcome from "./Welcome";
+/* global CozeWebSDK */
 
 const BoxChat = () => {
   useEffect(() => {
