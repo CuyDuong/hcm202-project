@@ -1,4 +1,5 @@
 import Body from "./components/Body";
+import BoxChat from "./components/BoxChat";
 import Carousel from "./components/Carousel";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <Body />
       <Features />
-
+      <BoxChat />
       <Footer />
     </div>
   );
