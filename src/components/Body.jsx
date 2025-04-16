@@ -109,7 +109,9 @@ function Body() {
             nền tảng tư tưởng, kim chỉ nam cho mọi hoạt động của Đảng.
           </div>
         </motion.div>
-        <div>
+        <div style={{
+              width: "35%",
+            }}>
           <Carousel />
         </div>
       </div>
