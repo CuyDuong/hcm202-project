@@ -31,6 +31,7 @@ function Body() {
       color: "#000",
       fontSize: "20px",
       maxWidth: "600px",
+      fontFamily: "'Merriweather', 'Times New Roman'"
     },
     container2: {
       display: "flex",
@@ -67,6 +68,7 @@ function Body() {
               ...styles.contentStyle,
               marginBottom: "40px",
               fontWeight: "bold",
+              fontFamily: "'Merriweather', 'Times New Roman'" 
             }}
           >
             Tư tưởng Hồ Chí Minh là nền tảng tư tưởng và kim chỉ nam cho hành

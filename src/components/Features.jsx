@@ -50,7 +50,12 @@ function Features() {
       borderRadius: "12px",
       boxShadow: "0 4px 12px rgba(2, 0, 0, 0.1)",
     },
-    cardTitle: { marginBottom: "20px", fontSize: "24px", color: "#333" },
+    cardTitle: {
+      marginBottom: "20px",
+      fontSize: "24px",
+      color: "#333",
+      fontFamily: "'Merriweather', 'Times New Roman'",
+    },
     cardHeader: {
       marginBottom: "12px",
       cursor: "pointer",
@@ -66,6 +71,7 @@ function Features() {
       fontSize: "16px",
       color: "#dcd7d7",
       paddingLeft: "24px",
+      fontFamily: "'Merriweather', 'Times New Roman'",
     },
   };
 
@@ -77,9 +83,7 @@ function Features() {
       viewport={{ once: true, amount: 0.3 }}
       style={styles.cardContainer}
     >
-      <h2 style={styles.cardTitle}>
-        Đặc điểm nổi bật của đảng kiểu mới:
-      </h2>
+      <h2 style={styles.cardTitle}>Đặc điểm nổi bật của đảng kiểu mới:</h2>
 
       <ul style={{ listStyle: "none", paddingLeft: "0" }}>
         {features.map((item, index) => (
@@ -95,6 +99,7 @@ function Features() {
                 fontSize: "18px",
                 fontWeight: "500",
                 color: "#dcd7d7",
+                fontFamily: "'Merriweather', 'Times New Roman'",
               }}
             >
               <span style={{ marginRight: "10px", color: "#dcd7d7" }}>●</span>
@@ -107,7 +112,7 @@ function Features() {
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   exit={{ opacity: 0, height: 0 }}
-                  transition={{ duration: 0.3, ease: "easeInOut" }}
+                  transition={{ duration: 0.2, ease: "easeInOut" }}
                   style={styles.cardDetail}
                 >
                   {item.detail}

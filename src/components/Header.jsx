@@ -16,6 +16,7 @@ function Header() {
           height: "100vh",
           color: "#000", // Chữ vàng
           fontSize: "2rem",
+          fontFamily: "'Merriweather', 'Times New Roman'"
         },
       };
 
