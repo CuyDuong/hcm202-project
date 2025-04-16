@@ -5,32 +5,32 @@ const features = [
   {
     title: "Lấy chủ nghĩa Mác – Lênin làm nền tảng tư tưởng.",
     detail:
-      "Chính đảng kiểu mới xây dựng lập trường tư tưởng dựa trên chủ nghĩa Mác – Lênin để định hướng và lãnh đạo.",
+      "Chủ nghĩa Mác được hình thành, từ sự kết tinh những giá trị tinh thần sâu sắc, tiến bộ của lịch sử văn minh nhân loại, với những tiền đề về khoa học tự nhiên, khoa học xã hội, từ triết học cổ điển Đức, kinh tế chính trị học Anh và Chủ nghĩa xã hội không tưởng Pháp. Chủ nghĩa Mác là hệ thống lý luận khoa học, vũ khí lý luận, ngọn cờ tập hợp lực lượng của giai cấp vô sản cách mạng, để chính đảng kiểu mới vạch ra cương lĩnh hành động, chiến lược và sách lược cách mạng, xây dựng chế độ xã hội mới của người lao động.",
   },
   {
     title: "Tổ chức theo nguyên tắc tập trung dân chủ.",
     detail:
-      "Bảo đảm sự lãnh đạo tập thể, phát huy dân chủ trong nội bộ và tuân thủ kỷ luật tổ chức.",
+      "Đây là nguyên tắc sẽ tạo nên sự đoàn kết, thống nhất trong Đảng, tạo thành một khối vững chắc cho sức mạnh chung của toàn Đảng.",
   },
   {
     title: "Gắn bó chặt chẽ với quần chúng.",
-    detail: "Luôn lắng nghe, thấu hiểu và hành động vì lợi ích của nhân dân.",
+    detail: "Luôn lắng nghe, thấu hiểu và hành động vì lợi ích của nhân dân. Bởi vì, đảng không thể lãnh đạo được giai cấp, nếu như không có mối liên hệ chặt chẽ với giai cấp công nhân ngoài đảng và các tầng lớp lao động khác.",
   },
   {
     title:
       "Tích cực kết nạp những đại biểu ưu tú của giai cấp công nhân và nhân dân lao động.",
     detail:
-      "Chọn lựa những cá nhân ưu tú, trung thành với lý tưởng cách mạng để phát triển tổ chức.",
+      "Để một đảng cách mạng - đảng kiểu mới xứng đáng là đội tiên phong, không ngừng lớn mạnh thì phải thường xuyên bổ sung những quần chúng ưu tú cho đảng, đồng thời loại bỏ cơ thể mình những phần tử thoái hóa, biến chất, cơ hội. Đây cũng là điều kiện để đảng tồn tại và phát triển, đủ uy tín lãnh đạo nhân dân qua các giai đoạn cách mạng ở mỗi nước.",
   },
   {
     title: "Theo chủ nghĩa quốc tế của giai cấp công nhân",
     detail:
-      "Đoàn kết với phong trào công nhân và các đảng cộng sản trên toàn thế giới.",
+      "Đây là vấn đề xuất phát từ bản chất giai cấp của giai cấp công nhân, đòi hỏi đảng kiểu mới phải kết hợp đúng đắn giữa lợi ích dân tộc, lợi ích giai cấp trong từng nước và lợi ích quốc tế; giữa chủ nghĩa yêu nước chân chính với chủ nghĩa quốc tế cao cả.",
   },
   {
     title: "Không ngừng tự đổi mới và nâng cao năng lực lãnh đạo.",
     detail:
-      "Luôn nhìn nhận, sửa chữa khuyết điểm và nâng cao năng lực để đáp ứng yêu cầu mới.",
+      "Đảng luôn giữ vai trò lãnh đạo cách mạng, gắn bó với nhân dân, không ngừng tự đổi mới, chỉnh đốn để đáp ứng yêu cầu thời đại. Đây là điều kiện tất yếu để Đảng giữ vị thế tiên phong, đồng thời giữ được niềm tin và sự ủng hộ của nhân dân.",
   },
 ];
 
@@ -50,7 +50,12 @@ function Features() {
       borderRadius: "12px",
       boxShadow: "0 4px 12px rgba(2, 0, 0, 0.1)",
     },
-    cardTitle: { marginBottom: "20px", fontSize: "24px", color: "#333" },
+    cardTitle: {
+      marginBottom: "20px",
+      fontSize: "24px",
+      color: "#333",
+      fontFamily: "'Merriweather', 'Times New Roman'",
+    },
     cardHeader: {
       marginBottom: "12px",
       cursor: "pointer",
@@ -66,6 +71,7 @@ function Features() {
       fontSize: "16px",
       color: "#dcd7d7",
       paddingLeft: "24px",
+      fontFamily: "'Merriweather', 'Times New Roman'",
     },
   };
 
@@ -77,9 +83,7 @@ function Features() {
       viewport={{ once: true, amount: 0.3 }}
       style={styles.cardContainer}
     >
-      <h2 style={styles.cardTitle}>
-        Đặc điểm nổi bật của đảng kiểu mới:
-      </h2>
+      <h2 style={styles.cardTitle}>Đặc điểm nổi bật của đảng kiểu mới:</h2>
 
       <ul style={{ listStyle: "none", paddingLeft: "0" }}>
         {features.map((item, index) => (
@@ -95,6 +99,7 @@ function Features() {
                 fontSize: "18px",
                 fontWeight: "500",
                 color: "#dcd7d7",
+                fontFamily: "'Merriweather', 'Times New Roman'",
               }}
             >
               <span style={{ marginRight: "10px", color: "#dcd7d7" }}>●</span>
@@ -107,7 +112,7 @@ function Features() {
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   exit={{ opacity: 0, height: 0 }}
-                  transition={{ duration: 0.3, ease: "easeInOut" }}
+                  transition={{ duration: 0.2, ease: "easeInOut" }}
                   style={styles.cardDetail}
                 >
                   {item.detail}
