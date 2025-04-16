@@ -31,7 +31,7 @@ function Body() {
       color: "#000",
       fontSize: "20px",
       maxWidth: "600px",
-      fontFamily: "'Merriweather', 'Times New Roman'"
+      fontFamily: "'Merriweather', 'Times New Roman'",
     },
     container2: {
       display: "flex",
@@ -68,11 +68,11 @@ function Body() {
               ...styles.contentStyle,
               marginBottom: "40px",
               fontWeight: "bold",
-              fontFamily: "'Merriweather', 'Times New Roman'" 
+              fontFamily: "'Merriweather', 'Times New Roman'",
             }}
           >
-            Tư tưởng Hồ Chí Minh là nền tảng tư tưởng và kim chỉ nam cho hành
-            động của Đảng Cộng sản Việt Nam.
+            Cùng với chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh là nền tảng tư
+            tưởng và kim chỉ nam cho hành động của Đảng Cộng sản Việt Nam.
           </div>
           <div style={styles.contentStyle}>
             Trong tác phẩm Đường cách mệnh (năm 1927), Hồ Chí Minh khẳng định:
