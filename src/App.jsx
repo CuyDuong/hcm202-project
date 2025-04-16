@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import logo from "./logo.svg";
+import HistoricalFigures from "./components/PartyComparison";
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <ScrollToTopButton />
       <Body />
       <Features />
+      <HistoricalFigures/>
       <BoxChat />
       <Footer />
     </div>
