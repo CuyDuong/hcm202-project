@@ -5,6 +5,8 @@ import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import logo from "./logo.svg";
+import HistoricalFigures from "./components/PartyComparison";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Header />
       <Body />
       <Features />
+      <HistoricalFigures/>
       <BoxChat />
       <Footer />
     </div>
