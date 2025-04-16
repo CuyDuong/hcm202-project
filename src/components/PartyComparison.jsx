@@ -8,26 +8,28 @@ function PartyComparison() {
     modern: {
       id: "modern",
       name: "Đảng kiểu mới",
+      color: "#1f1f1f",
+      iconBg: "rgba(31, 31, 31, 0.1)",
       backgroundImage: "https://www.tapchicongsan.org.vn/image/journal/article?img_id=31480821&t=1743921920514",
       characteristics: [
         {
-          title: "Nền tảng tư tưởng",
-          description: "Đảng kiểu mới là đảng của giai cấp công nhân hiện đại, dựa trên nền tảng lý luận của chủ nghĩa Mác-Lênin.",
+          title: "Tư tưởng lý luận",
+          description: "Đảng kiểu mới được xây dựng trên nền tảng lý luận khoa học của chủ nghĩa Mác-Lênin, có hệ thống quan điểm và đường lối rõ ràng về cách mạng và phát triển xã hội.",
           icon: "📚"
         },
         {
-          title: "Tổ chức",
-          description: "Chặt chẽ, nguyên tắc tập trung dân chủ",
+          title: "Cơ cấu tổ chức",
+          description: "Tổ chức chặt chẽ, có kỷ luật cao theo nguyên tắc tập trung dân chủ, thống nhất về tư tưởng và hành động từ trung ương đến cơ sở.",
           icon: "🏛️"
         },
         {
-          title: "Quan hệ với nhân dân",
-          description: "Đảng kiểu mới luôn gắn bó mật thiết với quần chúng nhân dân, lãnh đạo cuộc đấu tranh của giai cấp công nhân và nhân dân lao động để xây dựng và bảo vệ chủ nghĩa xã hội.",
+          title: "Mối quan hệ với quần chúng",
+          description: "Gắn bó mật thiết với quần chúng nhân dân, đại diện cho lợi ích của giai cấp công nhân và nhân dân lao động, lấy dân làm gốc trong mọi chính sách và hoạt động.",
           icon: "👥"
         },
         {
           title: "Phương thức lãnh đạo",
-          description: "Đảng kiểu mới có sự thống nhất về tư tưởng và hành động, luôn đổi mới và sáng tạo trong phương thức lãnh đạo, điều hành.",
+          description: "Lãnh đạo toàn diện, khoa học và linh hoạt; thường xuyên đổi mới phương thức lãnh đạo theo hướng dân chủ, công khai, minh bạch và hiệu quả.",
           icon: "💡"
         }
       ],
@@ -41,49 +43,55 @@ function PartyComparison() {
     traditional: {
       id: "traditional",
       name: "Đảng kiểu cũ",
+      color: "#444444",
+      iconBg: "rgba(68, 68, 68, 0.1)",
       backgroundImage: "https://yeulichsu.edu.vn/upload/2024/01/tim-hieu-su-ra-doi-cua-chu-nghia-tu-ban-phuong-tay.webp",
       characteristics: [
         {
-          title: "Nền tảng tư tưởng",
-          description: "Đảng kiểu cũ thường là đảng của giai cấp tư sản, hoặc đảng của các tầng lớp phong kiến, địa chủ.",
+          title: "Tư tưởng lý luận",
+          description: "Thường dựa trên tư tưởng phục vụ cho giai cấp tư sản hoặc phong kiến, thiếu hệ thống lý luận khoa học và toàn diện về phát triển xã hội.",
           icon: "💰"
         },
         {
-          title: "Tổ chức",
-          description: "Đảng kiểu cũ có tổ chức lỏng lẻo, chương trình, cương lĩnh không rõ ràng.",
+          title: "Cơ cấu tổ chức",
+          description: "Tổ chức lỏng lẻo, thiếu tính kỷ luật và thống nhất cao; cương lĩnh và chương trình hành động không rõ ràng, thường thay đổi theo lợi ích nhóm.",
           icon: "🏚️"
         },
         {
-          title: "Quan hệ với nhân dân",
-          description: "phục vụ lợi ích của giai cấp thống trị, không đại diện cho lợi ích của giai cấp công nhân và nhân dân lao động.",
+          title: "Mối quan hệ với quần chúng",
+          description: "Tách rời khỏi quần chúng nhân dân, chủ yếu đại diện và bảo vệ lợi ích của các giai cấp thống trị, chưa thực sự quan tâm đến lợi ích của đa số người dân lao động.",
           icon: "👤"
         },
         {
           title: "Phương thức lãnh đạo",
-          description: "Đảng kiểu cũ thiếu sự thống nhất về tư tưởng và hành động, thường bảo thủ, không có sự đổi mới trong phương thức lãnh đạo, điều hành.",
+          description: "Phương thức lãnh đạo bảo thủ, thiếu linh hoạt và dân chủ; chậm đổi mới, ít tiếp thu ý kiến từ cơ sở và thường áp đặt quyết định từ trên xuống.",
           icon: "🔒"
         }
       ],
       examples: [
         "Các đảng phong kiến thế kỷ 19",
-        "Đảng tư sản cổ điển",
+        "Các đảng tư sản cổ điển",
         "Các đảng quý tộc châu Âu thời kỳ đầu"
       ],
-      quote: "Vì lợi ích của giai cấp thống trị và duy trì hiện trạng."
+      quote: "Duy trì hiện trạng và bảo vệ đặc quyền của giai cấp thống trị."
     }
   };
 
   const styles = {
     container: {
       padding: "40px",
-      background: "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
+      background: "linear-gradient(to right, #f0f0f0, #cccccc)",
       minHeight: "100vh",
-      fontFamily: "'Roboto', sans-serif",
+      fontFamily: "'Merriweather', 'Times New Roman'",
     },
     header: {
       textAlign: "center",
       marginBottom: "40px",
       color: "#333",
+      fontSize: "36px",
+      fontWeight: "700",
+      textShadow: "1px 1px 2px rgba(0,0,0,0.1)",
+      fontFamily: "'Merriweather', 'Times New Roman'",
     },
     tabContainer: {
       display: "flex",
@@ -91,21 +99,25 @@ function PartyComparison() {
       marginBottom: "30px",
     },
     tab: {
-      padding: "12px 24px",
-      margin: "0 10px",
+      padding: "14px 30px",
+      margin: "0 15px",
       borderRadius: "30px",
       cursor: "pointer",
       fontWeight: "bold",
       transition: "all 0.3s ease",
+      fontSize: "18px",
+      boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+      fontFamily: "'Merriweather', 'Times New Roman'",
     },
     activeTab: {
-      backgroundColor: "#0056b3",
-      color: "white",
-      boxShadow: "0 4px 10px rgba(0,86,179,0.3)",
+      backgroundColor: "#1f1f1f",
+      color: "#dcd7d7",
+      boxShadow: "0 6px 12px rgba(0,0,0,0.3)",
+      transform: "translateY(-3px)",
     },
     inactiveTab: {
-      backgroundColor: "#f0f0f0",
-      color: "#555",
+      backgroundColor: "#dcd7d7",
+      color: "#333",
     },
     contentContainer: {
       maxWidth: "900px",
@@ -113,33 +125,33 @@ function PartyComparison() {
       backgroundColor: "#fff",
       borderRadius: "15px",
       overflow: "hidden",
-      boxShadow: "0 10px 30px rgba(0,0,0,0.1)",
+      boxShadow: "0 15px 35px rgba(0,0,0,0.1)",
     },
     modernBanner: {
       display: "flex",
       flexDirection: "column",
-      justifyContent: "flex-end", // Để nội dung ở phía dưới
+      justifyContent: "flex-end",
       alignItems: "center",
       padding: "40px 20px",
       backgroundImage: `url("${partyTypes.modern.backgroundImage}")`,
       backgroundSize: "cover",
-      backgroundPosition: "center top", // Giữ ảnh ở vị trí trên giữa
+      backgroundPosition: "center top",
       color: "white",
       position: "relative",
-      height: "350px", // Tăng chiều cao để có thêm không gian
+      height: "350px",
     },
     traditionalBanner: {
       display: "flex",
       flexDirection: "column",
-      justifyContent: "flex-end", // Để nội dung ở phía dưới
+      justifyContent: "flex-end",
       alignItems: "center",
       padding: "40px 20px",
       backgroundImage: `url("${partyTypes.traditional.backgroundImage}")`,
       backgroundSize: "cover",
-      backgroundPosition: "center top", // Giữ ảnh ở vị trí trên giữa
+      backgroundPosition: "center top",
       color: "white",
       position: "relative",
-      height: "350px", // Tăng chiều cao để có thêm không gian
+      height: "350px",
     },
     overlay: {
       position: "absolute",
@@ -147,7 +159,7 @@ function PartyComparison() {
       left: 0,
       right: 0,
       bottom: 0,
-      backgroundColor: "rgba(0, 86, 179, 0.5)",
+      backgroundColor: "rgba(31, 31, 31, 0.75)",
       zIndex: 1,
     },
     traditionalOverlay: {
@@ -156,7 +168,7 @@ function PartyComparison() {
       left: 0,
       right: 0,
       bottom: 0,
-      backgroundColor: "rgba(139, 69, 19, 0.5)", // Màu nâu cho đảng kiểu cũ
+      backgroundColor: "rgba(68, 68, 68, 0.75)",
       zIndex: 1,
     },
     bannerContent: {
@@ -166,91 +178,144 @@ function PartyComparison() {
       flexDirection: "column",
       alignItems: "center",
       width: "100%",
-      marginTop: "auto", // Đẩy nội dung xuống dưới
-    },
-    logo: {
-      width: "120px",
-      height: "120px",
-      objectFit: "contain",
-      marginBottom: "20px",
-      borderRadius: "60px",
-      backgroundColor: "white",
-      padding: "10px",
+      marginTop: "auto",
+      fontFamily: "'Merriweather', 'Times New Roman'",
     },
     partyName: {
-      fontSize: "32px",
+      fontSize: "38px",
       fontWeight: "bold",
-      marginBottom: "10px",
-      textShadow: "2px 2px 4px rgba(0,0,0,0.5)",
+      marginBottom: "15px",
+      textShadow: "2px 2px 4px rgba(0,0,0,0.6)",
+      letterSpacing: "1px",
+      fontFamily: "'Merriweather', 'Times New Roman'",
     },
     quote: {
       fontStyle: "italic",
       textAlign: "center",
-      maxWidth: "600px",
-      textShadow: "1px 1px 2px rgba(0,0,0,0.5)",
-      marginBottom: "15px", // Thêm margin dưới cho câu quote
+      maxWidth: "700px",
+      textShadow: "1px 1px 2px rgba(0,0,0,0.6)",
+      marginBottom: "15px",
+      fontSize: "18px",
+      lineHeight: "1.6",
+      fontFamily: "'Merriweather', 'Times New Roman'",
     },
     characteristicsContainer: {
-      padding: "30px",
+      padding: "40px",
     },
     characteristicCard: {
-      marginBottom: "25px",
+      marginBottom: "30px",
       backgroundColor: "#f9f9f9",
-      borderRadius: "10px",
-      padding: "20px",
-      boxShadow: "0 4px 8px rgba(0,0,0,0.05)",
-      transition: "transform 0.3s ease",
+      borderRadius: "12px",
+      padding: "25px",
+      boxShadow: "0 8px 15px rgba(0,0,0,0.05)",
+      transition: "all 0.3s ease",
+      border: "1px solid rgba(0,0,0,0.05)",
+    },
+    modernCard: {
+      borderLeft: "5px solid #1f1f1f",
+    },
+    traditionalCard: {
+      borderLeft: "5px solid #444444",
     },
     characteristicHeader: {
       display: "flex",
       alignItems: "center",
-      marginBottom: "10px",
+      marginBottom: "15px",
     },
-    icon: {
+    iconContainer: {
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      width: "50px",
+      height: "50px",
+      borderRadius: "50%",
+      marginRight: "20px",
       fontSize: "24px",
-      marginRight: "10px",
+    },
+    modernIcon: {
+      backgroundColor: "rgba(31, 31, 31, 0.1)",
+      color: "#1f1f1f",
+    },
+    traditionalIcon: {
+      backgroundColor: "rgba(68, 68, 68, 0.1)",
+      color: "#444444",
     },
     title: {
-      fontSize: "20px",
+      fontSize: "22px",
       fontWeight: "bold",
       color: "#333",
+      fontFamily: "'Merriweather', 'Times New Roman'",
     },
     description: {
-      color: "#555",
-      lineHeight: "1.6",
+      color: "#333",
+      lineHeight: "1.8",
+      fontSize: "18px",
+      paddingLeft: "70px",
+      fontFamily: "'Merriweather', 'Times New Roman'",
+      fontWeight: "normal",
     },
     examples: {
-      margin: "30px 0",
-      padding: "20px",
-      backgroundColor: "#f0f5ff",
-      borderRadius: "10px",
+      margin: "40px 0 30px",
+      padding: "25px",
+      borderRadius: "12px",
+      boxShadow: "0 8px 15px rgba(0,0,0,0.05)",
+    },
+    modernExamples: {
+      backgroundColor: "rgba(31, 31, 31, 0.05)",
+      borderLeft: "5px solid #1f1f1f",
+    },
+    traditionalExamples: {
+      backgroundColor: "rgba(68, 68, 68, 0.05)",
+      borderLeft: "5px solid #444444",
     },
     examplesTitle: {
-      marginBottom: "10px",
-      fontSize: "18px",
+      marginBottom: "15px",
+      fontSize: "22px", 
       fontWeight: "bold",
-      color: "#0056b3",
+      fontFamily: "'Merriweather', 'Times New Roman'",
+    },
+    modernExamplesTitle: {
+      color: "#1f1f1f",
+    },
+    traditionalExamplesTitle: {
+      color: "#444444",
     },
     examplesList: {
-      listStyle: "disc",
-      paddingLeft: "20px",
-      color: "#444",
+      listStyle: "none",
+      paddingLeft: "5px",
+      color: "#333",
     },
     exampleItem: {
-      margin: "5px 0",
+      margin: "10px 0",
+      padding: "5px 0",
+      display: "flex",
+      alignItems: "center",
+      fontSize: "18px",
+      fontFamily: "'Merriweather', 'Times New Roman'",
     },
-    compareButton: {
-      display: "block",
-      margin: "30px auto",
-      padding: "12px 24px",
-      backgroundColor: "#0056b3",
-      color: "white",
-      border: "none",
+    exampleBullet: {
+      marginRight: "10px",
+      fontSize: "20px",
+    },
+    buttonContainer: {
+      display: "flex",
+      justifyContent: "center",
+      margin: "30px 0",
+    },
+    button: {
+      padding: "14px 28px",
       borderRadius: "30px",
       cursor: "pointer",
       fontWeight: "bold",
       transition: "all 0.3s ease",
-      boxShadow: "0 4px 10px rgba(0,86,179,0.3)",
+      fontSize: "16px",
+      border: "none",
+      boxShadow: "0 6px 12px rgba(0,0,0,0.1)",
+      fontFamily: "'Merriweather', 'Times New Roman'",
+    },
+    switchButton: {
+      backgroundColor: "#dcd7d7",
+      color: "#333",
     }
   };
 
@@ -326,33 +391,76 @@ function PartyComparison() {
             {activeParty.characteristics.map((characteristic, index) => (
               <motion.div
                 key={index}
-                style={styles.characteristicCard}
+                style={{
+                  ...styles.characteristicCard,
+                  ...(activeTab === "modern" ? styles.modernCard : styles.traditionalCard)
+                }}
                 whileHover={{ transform: "translateY(-5px)" }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, delay: index * 0.1 }}
               >
                 <div style={styles.characteristicHeader}>
-                  <span style={styles.icon}>{characteristic.icon}</span>
+                  <div 
+                    style={{
+                      ...styles.iconContainer,
+                      ...(activeTab === "modern" ? styles.modernIcon : styles.traditionalIcon)
+                    }}
+                  >
+                    {characteristic.icon}
+                  </div>
                   <h3 style={styles.title}>{characteristic.title}</h3>
                 </div>
                 <p style={styles.description}>{characteristic.description}</p>
               </motion.div>
             ))}
 
-            <div style={styles.examples}>
-              <h3 style={styles.examplesTitle}>Ví dụ điển hình:</h3>
+            <motion.div
+              style={{
+                ...styles.examples,
+                ...(activeTab === "modern" ? styles.modernExamples : styles.traditionalExamples)
+              }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: 0.5 }}
+            >
+              <h3 
+                style={{
+                  ...styles.examplesTitle,
+                  ...(activeTab === "modern" ? styles.modernExamplesTitle : styles.traditionalExamplesTitle)
+                }}
+              >
+                Ví dụ điển hình:
+              </h3>
               <ul style={styles.examplesList}>
                 {activeParty.examples.map((example, index) => (
-                  <li key={index} style={styles.exampleItem}>{example}</li>
+                  <li key={index} style={styles.exampleItem}>
+                    <span 
+                      style={{
+                        ...styles.exampleBullet,
+                        color: activeTab === "modern" ? "#1f1f1f" : "#444444"
+                      }}
+                    >
+                      •
+                    </span>
+                    {example}
+                  </li>
                 ))}
               </ul>
-            </div>
+            </motion.div>
           </div>
 
-          <button
-            style={styles.compareButton}
-            onClick={() => togglePartyType(activeTab === "modern" ? "traditional" : "modern")}
-          >
-            So sánh với {activeTab === "modern" ? "Đảng kiểu cũ" : "Đảng kiểu mới"}
-          </button>
+          <div style={styles.buttonContainer}>
+            <button
+              style={{
+                ...styles.button,
+                ...styles.switchButton
+              }}
+              onClick={() => togglePartyType(activeTab === "modern" ? "traditional" : "modern")}
+            >
+              Xem {activeTab === "modern" ? "Đảng kiểu cũ" : "Đảng kiểu mới"}
+            </button>
+          </div>
         </motion.div>
       </AnimatePresence>
     </div>
