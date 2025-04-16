@@ -1,38 +1,46 @@
-import React from 'react'
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
 function Header() {
-    const styles = {
-        // bgImg: {
-        //     backgroundImage: "url('https://assets2.htv.com.vn/Images/Sy%20Thanh/Khong%20gian%20HCM/1/BH-1.jpg')", // Path to your image
-        //     backgroundSize: "cover", // Ensures the image covers the entire container
-        //     backgroundPosition: "center", // Centers the image
-        //     backgroundRepeat: "no-repeat"
-        // },
-        container: {
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          height: "100vh",
-          color: "#000", // Chữ vàng
-          fontSize: "2rem",
-          fontFamily: "'Merriweather', 'Times New Roman'"
-        },
-      };
+  const styles = {
+    containerHeader: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "flex-start",
+      backgroundImage:
+        "url('https://special.nhandan.vn/nguyenaiquoc_thanhlapdang/assets/cWHyU8MoIO/cover-2560x1440.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      height: "100vh",
+    },
+    titleHeader: {
+      color: "#000", 
+      fontSize: "2.2rem",
+      marginLeft: "3%",
+      marginTop: "25%",
+      fontFamily: "'Merriweather', 'Times New Roman'",
+      // backgroundColor: "rgba(255, 255, 255, 0.16)", // lớp nền mờ để dễ đọc chữ
+      fontWeight: "bold",
+      padding: "0.5rem",
+      borderRadius: "12px",
+    },
+  };
 
   return (
-    <div >
-        <motion.div
+    <div
+      style={styles.containerHeader}
+    >
+      <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        style={styles.container}
+        style={styles.titleHeader}
       >
-        Tư tưởng Hồ Chí Minh về Đảng Cộng sản Việt Nam
+        TƯ TƯỞNG HỒ CHÍ MINH VỀ ĐẢNG CỘNG SẢN VIỆT NAM
       </motion.div>
     </div>
-    
-  )
+  );
 }
 
-export default Header
+export default Header;
