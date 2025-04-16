@@ -8,7 +8,9 @@ import Header from "./components/Header";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import logo from "./logo.svg";
 import HistoricalFigures from "./components/PartyComparison";
-
+import CompareVideo from "./components/CompareVideo";
+import ContinuousBanner from "./components/Continousbanner";
+import ContinuousBannerVideo from "./components/ContinuousBannerVideo";
 
 function App() {
   return (
@@ -17,9 +19,12 @@ function App() {
       <ScrollToTopButton />
       <Body />
       <Features />
-      <HistoricalFigures/>
+      <HistoricalFigures />
       <BoxChat />
+      <ContinuousBanner />
+      <CompareVideo />
       <CompareSlider />
+      <ContinuousBannerVideo />
       <Footer />
     </div>
   );

@@ -87,7 +87,7 @@ const CompareSlider = () => {
     darkGray: "#707070", // Xám đậm - Màu phụ
     black: "#1f1f1f", // Đen - Viền hoặc chữ phụ
     darkRed: "#731010", // Đỏ sậm - Nút / tiêu đề
-    brightRed: "#a80000", // Đỏ tươi - Tiêu đề chính, nhấn mạnh
+    brightRed: "#d90000", // Đỏ tươi - Tiêu đề chính, nhấn mạnh
   };
 
   return (
@@ -153,21 +153,21 @@ const CompareSlider = () => {
                 <div
                   style={{
                     flex: 1,
-                    background: "rgba(31, 31, 31, 0.9)", // Sử dụng màu đen với độ trong suốt
+                    background: "#d4d4d4",
                     padding: "30px",
                     borderRadius: "12px",
-                    backdropFilter: "blur(8px)",
-                    boxShadow: `0 10px 30px rgba(0,0,0,0.6)`, // Đậm hơn
-                    border: `2px solid ${colors.darkRed}`, // Viền đậm hơn
+                    boxShadow: "0 10px 30px rgba(0,0,0,0.6)",
+                    border: `2px solid ${colors.darkRed}`,
+                    color: "#000", // màu chữ đen mặc định
                   }}
                 >
                   <h3
                     style={{
-                      color: colors.brightRed,
+                      color: "#000", // đổi về đen luôn cho rõ
                       marginBottom: "20px",
                       fontSize: "28px",
-                      textShadow: "2px 2px 4px rgba(0,0,0,0.7)",
                       fontWeight: "bold",
+                      textShadow: "none", // bỏ hiệu ứng
                     }}
                   >
                     🔴 ĐCSVN kiểu mới
@@ -176,8 +176,8 @@ const CompareSlider = () => {
                     style={{
                       fontSize: "20px",
                       lineHeight: "1.6",
-                      textShadow: "1px 1px 3px rgba(0,0,0,0.7)",
-                      color: colors.lightGray,
+                      color: "#000", // đổi màu chữ đen
+                      textShadow: "none", // bỏ hiệu ứng
                     }}
                   >
                     {slide.vn}
@@ -186,21 +186,22 @@ const CompareSlider = () => {
                 <div
                   style={{
                     flex: 1,
-                    background: "rgba(31, 31, 31, 0.9)", // Sử dụng màu đen với độ trong suốt
+                    background: "#d4d4d4", // nền xám nhạt
                     padding: "30px",
                     borderRadius: "12px",
-                    backdropFilter: "blur(8px)",
-                    boxShadow: `0 10px 30px rgba(0,0,0,0.6)`, // Đậm hơn
-                    border: `2px solid ${colors.darkGray}`, // Viền đậm hơn
+                    boxShadow: "0 10px 30px rgba(0,0,0,0.6)",
+                    border: `2px solid ${colors.darkGray}`,
+                    color: "#000", // chữ màu đen
+                    textShadow: "none", // không hiệu ứng
                   }}
                 >
                   <h3
                     style={{
-                      color: "#5b8def", // Giữ màu xanh cho tương phản
+                      color: "#1e4fa4", // vẫn giữ màu xanh dương
                       marginBottom: "20px",
                       fontSize: "28px",
-                      textShadow: "2px 2px 4px rgba(0,0,0,0.7)",
                       fontWeight: "bold",
+                      textShadow: "none", // bỏ hiệu ứng
                     }}
                   >
                     🔵 Đảng Cộng sản khác
@@ -209,8 +210,8 @@ const CompareSlider = () => {
                     style={{
                       fontSize: "20px",
                       lineHeight: "1.6",
-                      textShadow: "1px 1px 3px rgba(0,0,0,0.7)",
-                      color: colors.lightGray,
+                      color: "#000", // chữ đen
+                      textShadow: "none", // bỏ hiệu ứng
                     }}
                   >
                     {slide.world}
