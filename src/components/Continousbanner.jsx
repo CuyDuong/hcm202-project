@@ -15,7 +15,6 @@ const ContinuousBanner = () => {
     "https://imgchinhsachcuocsong.vnanet.vn/MediaUpload/Org/2025/01/08/171725-anh1.jpg",
     "https://img.cand.com.vn/resize/800x800/NewFiles/Images/2024/02/05/Untitled_1-1707093081951.jpg",
     "https://file.vnua.edu.vn/data/0/images/2022/01/30/host/dang1.jpg?w=680",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB16U11zDiNgIQKPDPQJ9jH-invoe-5Am41Q&s",
     "https://media.thanhtra.com.vn/public/uploads/2024/11/08/672dc2cea8beff5b04fad11c.jpg?w=1319",
     "https://daihoi13.dangcongsan.vn/Uploads/Images/2021/1/23/30/toan-canh-DH-anh-to.jpg",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhDy37LuYv6AvxVUkeAFi99Shy5JJ6EYafw&s",
