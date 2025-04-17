@@ -37,7 +37,7 @@ function CompareVideo() {
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      height: "80vh",
+      height: "auto",
       background: "linear-gradient(to left, #f0f0f0, #cccccc)",
       gap: "80px",
       flexWrap: "wrap",
