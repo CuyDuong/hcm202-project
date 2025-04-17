@@ -381,10 +381,10 @@ function PartyComparison() {
         <motion.div
           key={activeTab}
           style={styles.contentContainer}
-          initial={{ opacity: 0, y: 50 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.4 }}
           viewport={{ once: true }}
         >
           {renderBanner()}
