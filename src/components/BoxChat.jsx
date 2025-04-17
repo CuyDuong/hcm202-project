@@ -30,7 +30,7 @@ const BoxChat = () => {
         auth: {
           type: "token",
           token:
-            "pat_nyMNPhEUlRe2NG2mz0Hg76wLLK3zH7bxgkXrYaU4bmUuBkOWTmlZTxuRDuzMkWgY", // Thay bằng token thật của bạn
+            "pat_JozBeb6AknDT2UkY7BXU4dgEGKtC0dgNrkRbYAU5EqVVPBCAucAPzHgRrPnaF5Cg", // Thay bằng token thật của bạn
           onRefreshToken: function () {
             return "pat_********"; // Nếu token hết hạn, trả về token mới
           },

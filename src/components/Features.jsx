@@ -28,9 +28,9 @@ const features = [
       "Đây là vấn đề xuất phát từ bản chất giai cấp của giai cấp công nhân, đòi hỏi đảng kiểu mới phải kết hợp đúng đắn giữa lợi ích dân tộc, lợi ích giai cấp trong từng nước và lợi ích quốc tế; giữa chủ nghĩa yêu nước chân chính với chủ nghĩa quốc tế cao cả.",
   },
   {
-    title: "Không ngừng tự đổi mới và nâng cao năng lực lãnh đạo.",
+    title: "Không ngừng tự chỉnh đốn, đổi mới và nâng cao năng lực lãnh đạo.",
     detail:
-      "Đảng luôn giữ vai trò lãnh đạo cách mạng, gắn bó với nhân dân, không ngừng tự đổi mới, chỉnh đốn để đáp ứng yêu cầu thời đại. Đây là điều kiện tất yếu để Đảng giữ vị thế tiên phong, đồng thời giữ được niềm tin và sự ủng hộ của nhân dân.",
+      "Đảng phải “là đạo đức, là văn minh”, chống bệnh quan liêu, tham nhũng, xa rời quần chúng. Đảng luôn giữ vai trò lãnh đạo cách mạng, gắn bó với nhân dân, không ngừng tự đổi mới, chỉnh đốn để đáp ứng yêu cầu thời đại. Đây là điều kiện tất yếu để Đảng giữ vị thế tiên phong, đồng thời giữ được niềm tin và sự ủng hộ của nhân dân.",
   },
 ];
 
